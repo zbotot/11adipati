@@ -649,7 +649,7 @@ def ririnBot(op):
         if op.type == 17:
         	dan = ririn.getContact(op.param2)
         	tgb = ririn.getGroup(op.param1)
-        	sendMention(op.param1, "ʜᴏʟᴀ @!         ,\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ {} \nᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴄʜᴇᴄᴋ ɴᴏᴛᴇ ʏᴀ \nsᴀʟᴋᴇɴ ʙʏ. sᴇᴘʀɪ".format(str(tgb.name)),[op.param2])
+        	sendMention(op.param1, "ʜᴏʟᴀ @!         ,\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ {} \nᴊᴀɴɢᴀɴ ʟᴜᴘᴀ ᴘᴍ ᴀɪᴍ ʏᴀ \nsᴀʟᴋᴇɴ ʙʏ. ᴀᴅɪᴘᴀᴛɪ".format(str(tgb.name)),[op.param2])
         	ririn.sendContact(op.param1, op.param2)
         	ririn.sendImageWithURL(op.param1, "http://dl.profile.line-cdn.net{}".format(dan.picturePath))
 
